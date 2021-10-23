@@ -1,5 +1,8 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-    width: 100%;
     margin: 0px;
 }
 nav {
@@ -17,6 +20,75 @@ h1 {
     padding-top: 250px;
 }
 
+input[type=text], select {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    color: #CCD3DB;
+    width: 90%;
+  }
+  textarea {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    color: #CCD3DB;
+    width: 90%;
+  }
+  h2{
+      margin: 5px;
+  }
+  h3 {
+      margin: 5px;
+  }
+
+  p {
+      margin: 0px;
+  }
+  
+  button {
+        background-color: #DB545A;
+        border: none;
+        color: white;
+        padding: 10px 32px;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+  }
+
+  .button {
+    background-color: transparent;
+    border: 3px solid;
+    border-color: white;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+  }
+  
+  section {
+    display: flex;
+    flex-wrap: wrap;
+}
+main {
+    width: 40%;
+    padding: 50px 140px 50px 80px;
+    background-color: #CCD3DB;
+    color: #468AC9;
+    
+}
+aside {
+    width: 60%;
+    background-color: #468AC9;
+    padding: 50px 80px;
+    color: #CCD3DB;
+}
 ul {
     list-style-type: none;
     margin: 0;
