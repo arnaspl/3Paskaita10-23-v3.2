@@ -25,8 +25,16 @@ input[type=text], select {
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
-    border-radius: 4px;
     box-sizing: border-box;
+    color: #CCD3DB;
+  }
+  textarea {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    color: #CCD3DB;
   }
 
   button {
@@ -47,14 +55,17 @@ input[type=text], select {
     flex-wrap: wrap;
 }
 main {
-    width: 35%;
+    width: 40%;
     padding: 30px 50px;
+    background-color: #CCD3DB;
+    color: #468AC9;
     
 }
 aside {
-    width: 65%;
-    
+    width: 60%;
+    background-color: #468AC9;
     padding: 30px 20px;
+    color: #CCD3DB;
 }
 ul {
     list-style-type: none;
