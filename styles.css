@@ -11,7 +11,7 @@ nav {
 
 header {
     background-image: url(../Features/image.jpg);
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 600px;
     text-align: center;
@@ -19,21 +19,23 @@ header {
 .header {
     padding-top: 250px;
 }
+footer {
+    padding: 50px;
+}
 img {
-    width: 45%;
+    width: 50%;
     float: left;
+    padding-right: 50px;
     padding-bottom: 50px;
 }
 
-footer {
-    margin: 60px;
-}
-
 .footer-text {
-    text-align: center;
-    padding: 70px;
-    width: 45%;
+    width: 50%;
     float: left;
+    font-size: 1vw;
+    height: fit-content;
+    text-align: center;
+    padding: 60px 0px;
 }
 
 h1 {
