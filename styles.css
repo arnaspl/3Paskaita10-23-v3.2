@@ -10,7 +10,7 @@ nav {
 }
 
 header {
-    background-image: url(../Features/image.jpg);
+    background-image: url(Features/image.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 600px;
