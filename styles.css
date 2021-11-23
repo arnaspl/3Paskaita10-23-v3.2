@@ -162,10 +162,12 @@ ul {
     img {
         width: 100%;
         padding-bottom: 0px;
+        padding-right: 0px;
     }
 
     .footer-text {
         width: 100%;
         padding: 20px 70px 70px 70px;
+        font-size: 1.8vw;
     }
 }
